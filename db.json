@@ -1,56 +1,73 @@
-const perfumeCollection = document.querySelector("#perfume-collection")
-fetch("http://localhost:3000/perfumes")
-  .then((resp) => resp.json())
-  .then((perfumes) => {
-    renderPerfumes(perfumes) 
-  })
-  
-  function renderPerfumes(perfumes) {
-    perfumes.forEach(renderPerfume)
+{
+    "perfumes": [
+      {
+        "id": 1,
+        "image": "https://fimgs.net/mdimg/perfume/375x500.23280.jpg",
+        "brand": "Dior",
+        "name": "Miss Dior Blooming Bouquet",
+        "price": "$105",
+        "scentType": "Floral",
+        "notes": "Damascus Rose, Peony, White Musk"
+      },
+      {
+        "id": 2, 
+        "image": "https://fimgs.net/mdimg/perfume/375x500.51694.jpg",
+        "brand": "Burberry", 
+        "name": "Her Eau de Parfum", 
+        "price": "$123",
+        "scentType": "Floral", 
+        "notes": "Dark Berries, Jasmine, Musk-Amber"
+      },
+      {
+        "id": 3,
+        "image": "https://fimgs.net/mdimg/perfume/375x500.46885.jpg",
+        "brand": "Glossier",  
+        "name": "Glossier You",  
+        "price": "$64", 
+        "scentType": "Warm & Spicy",  
+        "notes": "Pink Pepper, Iris, Abrox"
+      },
+      {
+        "id": 4,
+        "image": "https://fimgs.net/mdimg/perfume/375x500.52616.jpg",
+        "brand": "KAYALI",   
+        "name": "VANILLA | 28",   
+        "price": "$89",  
+        "scentType": "Warm & Spicy",  
+        "notes": "Vanilla Orchids, Tonka Absolute, Amber Woods"
+      },
+      {
+        "id": 5,
+        "image": "https://fimgs.net/mdimg/perfume/375x500.15261.jpg",
+        "brand": "Maison Margiela",    
+        "name": "'REPLICA' Beach Walk",    
+        "price": "$85",   
+        "scentType": "Fresh",   
+        "notes": "Bergamot, Heliotrope, Coconut Milk"
+      },
+      {
+        "id": 6,
+        "image": "https://fimgs.net/mdimg/perfume/375x500.25529.jpg",
+        "brand": "Jo Malone London",     
+        "name": "Wood Sage & Sea Salt",     
+        "price": "$80",    
+        "scentType": "Woody & Earthy",    
+        "notes": "Ambrette Seeds, Sea Salt, Sage"
+      }
+    ]
   }
   
-  function renderPerfume(perfume) {
-    const perfumeCard = document.createElement("div")
-    perfumeCard.className = "card"
-    const img = document.createElement("img")
-    img.src = perfume.image
-    img.className = "perfume-image"
-    const p = document.createElement("p")
-    p.textContent = perfume.brand
-    p.className = "perfume-brand"
-    const h2 = document.createElement("h2")
-    h2.textContent = perfume.name
-    h2.className = "perfume-name"
-    const button = document.createElement("button")
-    button.className = "add-btn"
-    button.textContent = "Add to bag - " + perfume.price
   
-    perfumeCard.append(img)
-    perfumeCard.append(p)
-    perfumeCard.append(h2)
-    perfumeCard.append(button)
-    perfumeCollection.appendChild(perfumeCard)
-  }
-const form = document.querySelector('#form')
-function searchScent(e) {
-    e.preventDefault();
-    console.log("hello")
-}
-form.addEventListener('submit', searchScent)
-
-
-/*const btn = document.querySelector('button')
-function addToCart(add) {
-    console.log ("Item has been added to your cart!")
-}
-
-btn.addEventListener('click', addToCart)
-
-const hover = document.querySelector(//hover over image)
-function hoverImg(add) {
-    const mainScents = document.querySelector('mainScents')
-    console.log ("Core Scent Profile: " + ${mainScents})
-    //e.target.mainScents.value??
-}
-
-hover.addEventListener('mouseover', hoverImg)*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
