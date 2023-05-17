@@ -40,7 +40,7 @@
         "id": 5,
         "image": "https://fimgs.net/mdimg/perfume/375x500.15261.jpg",
         "brand": "Maison Margiela",    
-        "name": "'REPLICA' Beach Walk",    
+        "name": "REPLICA Beach Walk",    
         "price": "$85",   
         "scentType": "Fresh",   
         "notes": "Bergamot, Heliotrope, Coconut Milk"
@@ -50,7 +50,7 @@
         "image": "https://fimgs.net/mdimg/perfume/375x500.25529.jpg",
         "brand": "Jo Malone London",     
         "name": "Wood Sage & Sea Salt",     
-        "price": "$80",    
+        "price": "$155",    
         "scentType": "Woody & Earthy",    
         "notes": "Ambrette Seeds, Sea Salt, Sage"
       }
