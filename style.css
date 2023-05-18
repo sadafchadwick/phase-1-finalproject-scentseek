@@ -7,10 +7,12 @@ body {
   margin: 20px;
   font-family: interRegularFont;
   background-color: #FFFAF8;
+  width: 100%;
 }
 
 .header {
   background-color: #FFFAF8;
+  width: 100%;
   /* position: fixed;
   top: 0px; */
 }
@@ -32,6 +34,10 @@ input {
   padding: 2px 1px 2px 10px;
 }
 
+.bag {
+  margin-left: 700px;
+}
+
 .bag-image {
   width: 37px;
   height: 32px;
@@ -39,8 +45,9 @@ input {
 
 .line {
   margin: 15px;
-  width: 1320px;
+  width: 100%;
   background-color:#A86084;
+  justify-content: center;
 }
 
 #perfume-collection {
@@ -70,6 +77,7 @@ input {
   width: auto;
   margin-bottom: 10px;
   margin-top: 5px;
+  max-width: 15rem;
 }
 
 .perfume-brand {

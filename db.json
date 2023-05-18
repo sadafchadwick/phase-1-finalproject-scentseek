@@ -3,6 +3,7 @@
       {
         "id": 1,
         "image": "https://fimgs.net/mdimg/perfume/375x500.23280.jpg",
+        "mouseoverImage": "./perfume1.png",
         "brand": "Dior",
         "name": "Miss Dior Blooming Bouquet",
         "price": "$105",
@@ -12,6 +13,7 @@
       {
         "id": 2, 
         "image": "https://fimgs.net/mdimg/perfume/375x500.51694.jpg",
+        "mouseoverImage": "./perfume2.0.png",
         "brand": "Burberry", 
         "name": "Her Eau de Parfum", 
         "price": "$123",
@@ -21,6 +23,7 @@
       {
         "id": 3,
         "image": "https://fimgs.net/mdimg/perfume/375x500.46885.jpg",
+        "mouseoverImage": "./perfume3.1.png",
         "brand": "Glossier",  
         "name": "Glossier You",  
         "price": "$64", 
@@ -30,6 +33,7 @@
       {
         "id": 4,
         "image": "https://fimgs.net/mdimg/perfume/375x500.52616.jpg",
+        "mouseoverImage": "./perfume4.png",
         "brand": "KAYALI",   
         "name": "VANILLA | 28",   
         "price": "$89",  
@@ -39,6 +43,7 @@
       {
         "id": 5,
         "image": "https://fimgs.net/mdimg/perfume/375x500.15261.jpg",
+        "mouseoverImage": "./perfume5.png",
         "brand": "Maison Margiela",    
         "name": "REPLICA Beach Walk",    
         "price": "$85",   
@@ -48,6 +53,7 @@
       {
         "id": 6,
         "image": "https://fimgs.net/mdimg/perfume/375x500.25529.jpg",
+        "mouseoverImage": "./perfume6.png",
         "brand": "Jo Malone London",     
         "name": "Wood Sage & Sea Salt",     
         "price": "$155",    
