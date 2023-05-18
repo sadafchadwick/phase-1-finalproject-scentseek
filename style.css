@@ -11,6 +11,7 @@ body {
 
 .header {
   background-color: #FFFAF8;
+  width: 100%;
   /* position: fixed;
   top: 0px; */
 }
@@ -39,7 +40,7 @@ input {
 
 .line {
   margin: 15px;
-  width: 1320px;
+  width: 100%;
   background-color:#A86084;
 }
 
@@ -70,6 +71,7 @@ input {
   width: auto;
   margin-bottom: 10px;
   margin-top: 5px;
+  max-width: 15rem;
 }
 
 .perfume-brand {

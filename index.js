@@ -49,6 +49,19 @@ fetch("http://localhost:3000/perfumes")
           items.textContent = parseInt(items.textContent) + 1
           
         }
+
+    img.addEventListener("mouseover", changeImage)
+
+    function changeImage(){
+      img.src = perfume.mouseoverImage
+    }
+
+    img.addEventListener("mouseout", changeImageBack)
+
+    function changeImageBack(){
+      img.src = perfume.image
+    }
+
       return {image: perfume.image, brand: perfume.brand, name: perfume.name, price: perfume.price, element: perfumeCard}
     })
   })
