@@ -6,7 +6,13 @@
 body {
   margin: 20px;
   font-family: interRegularFont;
-  background-color: #FFFAF8
+  background-color: #FFFAF8;
+}
+
+.header {
+  background-color: #FFFAF8;
+  /* position: fixed;
+  top: 0px; */
 }
 
 .company {
@@ -34,10 +40,11 @@ input {
 .line {
   margin: 15px;
   width: 1320px;
+  background-color:#A86084;
 }
 
 #perfume-collection {
-  margin: 1rem 10rem 2rem 10rem;
+  margin: 2rem 10rem 2rem 10rem;
   justify-content: center;
   /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -87,7 +94,7 @@ button {
   font-size: 18px;
   justify-self: center;
   transition: all 200ms ease-in-out;
-  margin: 5px;
+  margin: 5px 5px 0px;
 }
 button:hover {
   background-color: #FFFFFF;
